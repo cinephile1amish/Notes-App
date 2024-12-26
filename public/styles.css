@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background: #a9dfff;
+    background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+    padding: 0 16px;
+}
+
+header {
+    background-color: #0a426f;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+  }
+  
+  header h1 {
+    color: #a8dcff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+
+  .noteHeader h2{
+    color: #0a426f;
+    position: relative;
+    left: 43%;
+    font-size: 35px;
+  }
+
+
+.HomeNav button {
+    position: relative;
+    left: 20%;
+    margin-top: 8%;
+    margin-right: 10px;
+    background: #0a426f;
+    color: #5cbcfc;
+    font-size: 50px;
+    border: none;
+    border-radius: 7px;
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+    outline: none;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+}
+
+::placeholder {
+    color:#0a426f;
+    opacity: 0.5;
+  }
+  
+  .note {
+    background: #5cbcfc;
+    background-image: url("https://www.transparenttextures.com/patterns/green-gobbler.png");
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    padding: 10px;
+    width: 263px;
+    margin: 16px;
+    float: left;
+  }
+  .note h1 {
+    font-size: 1.5em;
+    margin-bottom: 6px;
+  }
+  .note p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .note button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    background: #0a426f;
+    color: #5cbcfc;
+    border: none;
+    border-radius: 7px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  form.create-note {
+    position: relative;
+    float: right;
+    width: 530px;
+    
+    margin: 30px auto 20px auto;
+    background: #5cbcfc;
+    background-image: url("https://www.transparenttextures.com/patterns/green-gobbler.png");
+    color:#a8dcff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+  form.create-note input,
+  form.create-note textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+    place-content: white;
+    background-color:#5cbcfc;
+    background-image: url("https://www.transparenttextures.com/patterns/green-gobbler.png");
+  }
+  form.create-note button {
+    position: absolute;
+    left: 88%;
+    bottom: -18px;
+    background: #0a426f;
+    color: #a9dfff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+
+.headHome button{
+    border: none;
+    background: #0a426f;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+}
+
+
+
+.form input {
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 0.7rem;
+    border-bottom-right-radius: 15px 3px;
+    border-bottom-left-radius: 3px 15px;
+    border: solid 3px transparent;
+    border-bottom: dashed 3px #0a426f;
+    font-size: 1rem;
+    
+    color: hsla(260, 2%, 25%, 0.7);
+    width: 400px;
+    margin-bottom: 20px;
+  }
+
+.form button{
+    background-color: #0a426f;
+    color: #a9dfff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+
+  .container {
+    width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  padding: auto;
+  min-height: 700px;
+  min-width: 250px;
+  background:#5cbcfc;
+  background-image: url("https://www.transparenttextures.com/patterns/green-gobbler.png");
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+  }
+
+  .task {
+    background: #1064a8;
+    color: #a9dfff;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-brick-wall.png");
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    padding: 10px;
+    width: auto;
+    margin: 16px;
+    float: left;
+  }
+  .task button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    background: #5cbcfc;
+    color: #0a426f;
+    border: none;
+    border-radius: 7px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  
+
+  
+
+
