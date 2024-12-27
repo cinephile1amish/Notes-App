@@ -7,12 +7,9 @@ export function TaskItem(props){
         <div className='task'>
             <Zoom in={true}>
                 <h3 onClick={() => { props.onChecked(props.id); }}>
-                    {props.text} 
-                    <Zoom in={true}>
-                        <Fab>
-                            <CancelIcon />
-                        </Fab>
-                    </Zoom>
+                    {props.text}
+                    <br></br>
+                    <Fab><CancelIcon /></Fab>
                 </h3>
                 
             </Zoom>
